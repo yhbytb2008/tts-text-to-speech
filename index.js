@@ -392,7 +392,7 @@ const HTML_PAGE = `
 <body>
     <div class="container">
         <div class="header">
-            <h1>声音魔法师</h1>
+            <h1>文本-声音魔法大师</h1>
             <p class="subtitle">让文字开口说话的神器</p>
             <div class="features">
                 <div class="feature-item">
@@ -520,14 +520,13 @@ const HTML_PAGE = `
         <div class="wechat-promotion" id="wechatPromotion" style="display: none;">
             <div class="promotion-header">
                 <h2 class="promotion-title">🎉 生成成功！喜欢这个工具吗？</h2>
-                <p class="promotion-subtitle">关注我们获取更多AI工具和技术分享</p>
             </div>
             <div class="promotion-content">
                 <div class="qr-code">
-                    <img src="" alt="微信公众号二维码" />
+                    <img src="" alt="无中生有" />
                 </div>
                 <div class="promotion-info">
-                    <h3>关注「一只会说话的鹦鹉」</h3>
+                    <h3>「一只会说话的鹦鹉」</h3>
                     <p>免费分享</p>
                     <ul class="benefits-list">
                         <li>没有什么</li>
@@ -928,5 +927,6 @@ function dateFormat() {
     const formattedDate = (new Date()).toUTCString().replace(/GMT/, "").trim() + " GMT";
     return formattedDate.toLowerCase();
 }
+
 
 
